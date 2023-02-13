@@ -1,3 +1,5 @@
+//one version of exception handling is with try-catch methods
+
 package com.prog.exeptionhandlingtutorial;
 
 import java.util.Scanner;

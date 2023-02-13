@@ -1,3 +1,6 @@
+//one version is with creating your own exception
+//this in my opinion is (no offense) the lazy way of exception handling
+
 package com.prog.exeptionhandlingtutorial;
 
 import java.util.Scanner;
@@ -16,8 +19,8 @@ public class UncheckedException {
         try {
             int quotient = dividend / divisor;
             System.out.println(("The quotient is: ") + quotient);
-        } catch (OwnException ownException) {
-            System.out.println("ERROR: " + ownException.getMessage());
+        } catch (DivisorIsZero divisorIsZero) {
+            System.out.println("ERROR: " + divisorIsZero.getMessage());
         }
 
 //        if (divisor == 0) {
