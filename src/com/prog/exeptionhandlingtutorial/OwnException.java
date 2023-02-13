@@ -1,2 +1,5 @@
-package com.prog.exeptionhandlingtutorial;public class OwnException {
+package com.prog.exeptionhandlingtutorial;
+
+public class OwnException extends RuntimeException {
+
 }
